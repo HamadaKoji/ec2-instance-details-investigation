@@ -1,0 +1,410 @@
+---instance-type-------
+p2.xlarge
+---dmidecode-------
+# dmidecode 2.12
+SMBIOS 2.7 present.
+23 structures occupying 812 bytes.
+Table at 0x000EB01F.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: Xen
+	Version: 4.2.amazon
+	Release Date: 08/24/2006
+	Address: 0xE8000
+	Runtime Size: 96 kB
+	ROM Size: 64 kB
+	Characteristics:
+		PCI is supported
+		EDD is supported
+		Targeted content distribution is supported
+	BIOS Revision: 4.2
+
+Handle 0x0100, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Xen
+	Product Name: HVM domU
+	Version: 4.2.amazon
+	Serial Number: ec2a28ce-535f-6970-c7ed-0f93ba50e993
+	UUID: EC2A28CE-535F-6970-C7ED-0F93BA50E993
+	Wake-up Type: Power Switch
+	SKU Number: Not Specified
+	Family: Not Specified
+
+Handle 0x0300, DMI type 3, 13 bytes
+Chassis Information
+	Manufacturer: Xen
+	Type: Other
+	Lock: Not Present
+	Version: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: Unknown
+
+Handle 0x0401, DMI type 4, 26 bytes
+Processor Information
+	Socket Designation: CPU 1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: F1 06 04 00 FF FB 89 17
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+
+Handle 0x0402, DMI type 4, 26 bytes
+Processor Information
+	Socket Designation: CPU 2
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: F1 06 04 00 FF FB 89 17
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+
+Handle 0x0403, DMI type 4, 26 bytes
+Processor Information
+	Socket Designation: CPU 3
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: F1 06 04 00 FF FB 89 17
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+
+Handle 0x0404, DMI type 4, 26 bytes
+Processor Information
+	Socket Designation: CPU 4
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: F1 06 04 00 FF FB 89 17
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+
+Handle 0x0B00, DMI type 11, 5 bytes
+OEM Strings
+	String 1: Xen
+
+Handle 0x1000, DMI type 16, 19 bytes
+Physical Memory Array
+	Location: Other
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 61 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 4
+
+Handle 0x1100, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: 0x0000
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: Not Specified
+	Type: RAM
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+
+Handle 0x1300, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x1000
+	Partition Width: 1
+
+Handle 0x1400, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x1100
+	Memory Array Mapped Address Handle: 0x1300
+	Partition Row Position: 1
+
+Handle 0x1101, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: 0x0000
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: Not Specified
+	Type: RAM
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+
+Handle 0x1301, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x1000
+	Partition Width: 1
+
+Handle 0x1401, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x1101
+	Memory Array Mapped Address Handle: 0x1301
+	Partition Row Position: 1
+
+Handle 0x1102, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: 0x0000
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 2
+	Bank Locator: Not Specified
+	Type: RAM
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+
+Handle 0x1302, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00800000000
+	Ending Address: 0x00BFFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x1000
+	Partition Width: 1
+
+Handle 0x1402, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00800000000
+	Ending Address: 0x00BFFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x1102
+	Memory Array Mapped Address Handle: 0x1302
+	Partition Row Position: 1
+
+Handle 0x1103, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: 0x0000
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 13312 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 3
+	Bank Locator: Not Specified
+	Type: RAM
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+
+Handle 0x1303, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00C00000000
+	Ending Address: 0x00F3FFFFFFF
+	Range Size: 13 GB
+	Physical Array Handle: 0x1000
+	Partition Width: 1
+
+Handle 0x1403, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00C00000000
+	Ending Address: 0x00F3FFFFFFF
+	Range Size: 13 GB
+	Physical Device Handle: 0x1103
+	Memory Array Mapped Address Handle: 0x1303
+	Partition Row Position: 1
+
+Handle 0x2000, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x7F00, DMI type 127, 4 bytes
+End Of Table
+
+---cpuinfo-------
+cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+stepping	: 1
+microcode	: 0xb000025
+cpu MHz		: 2700.506
+cache size	: 46080 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt
+bugs		:
+bogomips	: 4600.14
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+stepping	: 1
+microcode	: 0xb000025
+cpu MHz		: 2689.416
+cache size	: 46080 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt
+bugs		:
+bogomips	: 4600.14
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+stepping	: 1
+microcode	: 0xb000025
+cpu MHz		: 2700.646
+cache size	: 46080 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt
+bugs		:
+bogomips	: 4600.14
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+stepping	: 1
+microcode	: 0xb000025
+cpu MHz		: 2700.366
+cache size	: 46080 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt
+bugs		:
+bogomips	: 4600.14
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+---diskinfo-------
+df -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs   30G   60K   30G   1% /dev
+tmpfs          tmpfs      30G     0   30G   0% /dev/shm
+/dev/xvda1     ext4      7.8G  1.1G  6.6G  15% /
+---diskinfo-------
+sudo  fdisk -l
+
+Disk /dev/xvda: 8589 MB, 8589934592 bytes, 16777216 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1         4096     16777182      8G  Linux filesyste Linux
+128         2048         4095      1M  BIOS boot parti BIOS Boot Partition
+---nvmelist-------
+nvme list
+No NVMe devices detected.

@@ -1,0 +1,147 @@
+---instance-type-------
+m5.large
+---dmidecode-------
+# dmidecode 2.12
+SMBIOS 2.7 present.
+5 structures occupying 233 bytes.
+Table at 0x000F9010.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: Amazon EC2
+	Version: 1.0
+	Release Date: 10/16/2017
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 64 kB
+	Characteristics:
+		PCI is supported
+		EDD is supported
+		ACPI is supported
+		System is a virtual machine
+	BIOS Revision: 1.0
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Amazon EC2
+	Product Name: m5.large
+	Version: Not Specified
+	Serial Number: ec253807-6521-9dc0-9790-5c3c2f75b689
+	UUID: EC253807-6521-9DC0-9790-5C3C2F75B689
+	Wake-up Type: Power Switch
+	SKU Number: Not Specified
+	Family: Not Specified
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: Amazon EC2
+	Product Name: Not Specified
+	Version: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: i-0e2df8174ec36ceac
+	Features: None
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0003
+	Type: Other
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 21 bytes
+Chassis Information
+	Manufacturer: Amazon EC2
+	Type: Other
+	Lock: Not Present
+	Version: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Amazon EC2
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+
+Handle 0x0004, DMI type 127, 4 bytes
+End Of Table
+
+---cpuinfo-------
+cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz
+stepping	: 4
+microcode	: 0x200003a
+cpu MHz		: 2499.996
+cache size	: 33792 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		:
+bogomips	: 4999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz
+stepping	: 4
+microcode	: 0x200003a
+cpu MHz		: 2499.996
+cache size	: 33792 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		:
+bogomips	: 4999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+---diskinfo-------
+df -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  3.8G   44K  3.8G   1% /dev
+tmpfs          tmpfs     3.8G     0  3.8G   0% /dev/shm
+/dev/nvme0n1p1 ext4      7.8G  1.1G  6.6G  15% /
+---diskinfo-------
+sudo  fdisk -l
+
+Disk /dev/nvme0n1: 8589 MB, 8589934592 bytes, 16777216 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1         4096     16777182      8G  Linux filesyste Linux
+128         2048         4095      1M  BIOS boot parti BIOS Boot Partition
+---nvmelist-------
+nvme list
+Node             SN                   Model                                    Version  Namespace Usage                      Format           FW Rev  
+---------------- -------------------- ---------------------------------------- -------- --------- -------------------------- ---------------- --------
+/dev/nvme0n1     vol0b3359315800e9e97 Amazon Elastic Block Store               1.0      1           0.00   B /   8.59  GB    512   B +  0 B   1.0     
